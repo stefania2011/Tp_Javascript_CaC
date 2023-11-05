@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="Tp image/icon_cac.png">
+    <script src="comprartickets.js"></script>
+    <title>Comprar tickets</title>
+</head>
+<body>
+    <!-- navbar de bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-lg">
+      <span><img src="Tp image/codoacodo.png" alt="logo"></span>
+      <a class="navbar-brand" href="index.html">Conf Bs As</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" href="#" aria-current="page" href="#"> La conferencia</a>
+          <a class="nav-link" href="#">Los oradores</a>
+          <a class="nav-link" href="#"> El lugar y la fecha</a>
+          <a class="nav-link" href="#"> Conviertete en orador</a>
+          <a class="nav-link" href="#"> Comprar tickets</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+    <!-- tarjeta de descuento  -->
+    <div class="container fluid d-flex justify-content-center ">
+      <!-- tarjeta 1-->
+    <div class="card-group "  style="width: 46rem;">
+      <div class="card border border-primary text-center mx-1">
+        <div class="card-body">
+          <p class="card-text h4">Estudiante</p>
+          <p class="card-text">Tiene un descuento</p>
+          <p class="card-text"> <strong>80%</strong></p>
+          <p class="card-text text-muted"> <small> *presentar documentación</small></p>
+        </div>
+      </div>
+      <!-- tarjeta 2-->
+      <div class="card border border-success text-center mx-1" >
+        <div class="card-body">
+          <p class="card-text h4">Trainee</p>
+          <p class="card-text">Tiene un descuento</p>
+          <p class="card-text"> <strong>50%</strong></p>
+          <p class="card-text text-muted"><small> *presentar documentación</small></p>
+        </div>
+      </div>
+      <!-- tarjeta 3 -->
+      <div class="card border border-warning text-center mx-1" >
+        <div class="card-body">
+          <p class="card-text h4">Junior</p>
+          <p class="card-text">Tiene un descuento</p>
+          <p class="card-text"> <strong>15%</strong></p>
+          <p class="card-text text-muted"><small> *presentar documentación</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+
+    
+    <div>
+      <p class="text-uppercase pt-2 mb-0 text-center">
+        <small>venta</small>
+      </p>
+      <p class="h3 text-uppercase text-center">Valor de ticket $200</p>
+    </div>
+  
+
+
+ <!-- Formulario tickets -->
+ 
+ <form action="" class="formulario-tickets" id="formulario-tickets">
+    <div>    
+        <div class="row">
+            <div class="col-6">
+                <input type="text" class="form-control" placeholder="Nombre"  aria-label="Nombre">
+                
+            </div>
+            <div class="col-6">
+                <input type="text" class="form-control" placeholder="Apellido"  aria-label="Apellido" >
+            </div>
+            <div class="col-12 mt-3">
+                <input type="email" class="form-control" placeholder="Correo" aria-label="Correo" >
+            </div>
+            <div class="col-6 mt-3">
+                <label for="" class="ps-1">Cantidad</label>
+                <input type="text" class="form-control mt-2" id="input-cantidad" placeholder="Cantidad" aria-label="Cantidad" >
+            </div>
+            <div class="col-6 mt-3">
+                <label for="" class="ps-1">Categoría</label>
+                <select class="form-select select-tickets mt-2"  id="select-tickets" aria-label="Default select example">
+                    <option selected>Selecciona una Categoría</option>
+                    <option value="1">Estudiante</option>
+                    <option value="2">Trainee</option>
+                    <option value="3">Junior</option>
+                    <option value="4">General</option>
+                </select>
+            </div>
+            <div class="col-12 mt-4">
+                <input type="text" class="form-control form-control-lg total-pagar" id="input-total-pagar" placeholder="Total a pagar: $"  aria-label="Total" disabled>
+            </div>
+            <div class="container-btn-tickets d-flex justify-content-between">
+                <button type="submit" class="btn btn-success btn-ticket mt-4 p-2" onclick="borrar();">Borrar</button>
+                <button type="submit" class="btn btn-success btn-ticket mt-4 p-2" onclick="totalPagar();">Resumen</button>
+            </div>         
+        </div>
+    </div>
+</form>
+
+    <br>
+
+
+
+  <!-- -----------------seccion 6: footer------------------------- -->
+
+  <footer class="parte6">
+    <div class="container-footer">
+      <a class="footer-item" href="#">Preguntas frecuentes</a>
+      <a class="footer-item" href="#">Contáctanos</a>
+      <a class="footer-item" href="#">Prensa</a>
+      <a class="footer-item" href="#">Conferencias</a>
+      <a class="footer-item" href="#">Términos y condiciones</a>
+      <a class="footer-item" href="#">Privacidad</a>
+      <a class="footer-item" href="#">Estudiantes</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+     
+</body>
+</html>

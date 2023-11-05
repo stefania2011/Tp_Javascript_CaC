@@ -1,0 +1,457 @@
+/* ------------------------seccion 1----------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar-expand-lg.navbar-dark {
+    background-color: rgb(60, 62, 71);
+}
+
+.navbar-brand {
+    color: rgb(255, 0, 179);
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar img:hover {
+    transform: scale(1.2);
+}
+
+.navbar img {
+    width: 150px;
+    margin-right: 1rem;
+    /* margin-left: -5rem; */
+    padding: 0rem 0;
+    transition: all 0.3s;
+}
+
+.navbar .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+.navbar .navbar-nav {
+    text-align: center;
+}
+
+.navbar .navbar-nav a:last-child {
+    color: rgb(21, 231, 21);
+}
+
+/* -------------------------seccion 2------------------------- */
+
+
+.container1 {
+
+    background-image: url(Tp\ image/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    color: aliceblue;
+}
+
+.container1 .sombreado {
+    background-color: rgba(29, 12, 12, 0.521);
+    width: 100%;
+    height: 100%;
+}
+
+.container1 .contenido {
+
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+/* Botones dentro del contenedor  */
+
+.container1 .texto {
+    width: 50%;
+    margin-bottom: 20vh;
+    text-align: right;
+}
+
+.container1 .botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.container1 .botones a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container1 .btn {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+.container1 .btn-transparent {
+    border: 1px solid rgb(248, 237, 237);
+}
+
+.container1 .btn-transparent:hover {
+    background-color: rgba(233, 229, 9, 0.781);
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+.container1 .btn-solid {
+    background-color: green;
+    border: 1px solid green;
+}
+
+.container1 .btn-solid:hover {
+    background-color: rgba(212, 233, 22, 0.589);
+    border: 1px solid rgba(212, 233, 22, 0.562);
+    color: white;
+    transition: 0.5s;
+}
+
+/* ------------------------seccion 3-------------------------------------- */
+
+.Oradores .titulo {
+    text-align: center;
+}
+
+.titulo h6 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.Oradores .container_oradores {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.Oradores .tarjetas {
+    width: 30%;
+    min-width: 300px;
+}
+
+.Oradores .tarjetas img {
+    width: 100%;
+}
+
+.Oradores .tarjetas :not(img) {
+    padding: 0 1rem;
+
+}
+
+.tarjetas .habilidades {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.tarjetas .habilidades h6 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+
+.tarjetas h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.3rem;
+}
+
+.tarjetas p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.tarjetas .habilidades .amarillo {
+    background-color: rgb(250, 193, 8);
+    border-radius: 6px;
+}
+
+.tarjetas .habilidades .celeste {
+    background-color: rgb(25, 139, 184);
+    color: white;
+    border-radius: 6px;
+}
+
+.tarjetas .habilidades .gris {
+    background-color: rgb(110, 103, 103);
+    color: whitesmoke;
+    border-radius: 6px;
+}
+
+.tarjetas .habilidades .magenta {
+    background-color: rgb(221, 32, 58);
+    color: white;
+    border-radius: 6px;
+}
+
+/* ---------------------seccion 4----------------------------------------- */
+
+.Container2 {
+    margin-top: 1rem;
+}
+
+.Container2 {
+    display: flex;
+}
+
+.Container2 img {
+    width: 50vw;
+    margin: 0;
+}
+
+.Container2 .texto2 {
+    background-color: rgb(56, 55, 55);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.Container2 .texto2 h2 {
+    font-weight: 600;
+}
+
+.Container2 .boton {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.Container2 .boton-transparente {
+    border: 1px solid rgb(252, 252, 252);
+}
+
+.Container2 .boton-transparente:hover {
+    background-color: rgba(250, 193, 8, 0.74);
+    color: rgb(255, 255, 255);
+    border: 1px solid blanchedalmond;
+    transition: 0.7;
+    text-decoration: none;
+
+}
+
+/* ---------------------------seccion 5 ------------------------------------*/
+
+.parte5 .titulo {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.parte5 .titulo h3 {
+    font-size: 1rem;
+}
+
+.parte5 .formulario {
+    display: flex;
+    width: 50vw;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.parte5 .formulario .first-last-name {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.parte5 .formulario .input-name {
+    width: 48%;
+    padding: 0.7rem 0.5rem;
+    border-radius: 6px;
+    border: 1px solid rgba(12, 70, 109, 0.26);
+}
+
+.parte5 .formulario .input-name:focus {
+    outline: 1px solid rgba(12, 70, 109, 0.26);
+}
+
+.parte5 .formulario .input-about {
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    border-radius: 6px;
+    border: 1px solid rgba(12, 70, 109, 0.26);
+}
+
+
+.parte5 .formulario .input-about:focus {
+    outline: 1px solid skyblue;
+}
+
+.parte5 .formulario .boton-submit {
+    width: 100%;
+    height: 5%;
+    margin: 1rem 0;
+    padding: 0.8rem 0;
+    font-size: 1.5rem;
+    background-color: green;
+    color: rgb(252, 252, 252);
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    ;
+}
+
+.parte5 .formulario .boton-submit:hover {
+    background-color: #1E4155;
+    color: rgb(10, 73, 21);
+    transition: 0.8s;
+}
+
+.parte5 .formulario {
+    color: rgba(85, 79, 79, 0.651);
+}
+
+/* ---------------------------- seccion 6 ------------------------------ */
+
+.parte6 {
+    background: #1E4155;
+}
+
+.parte6 .container-footer {
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parte6 .container-footer a {
+    text-decoration: none;
+    color: white;
+    padding: 3rem 0;
+    width: 100px;
+    text-align: center;
+}
+
+.parte6 .container-footer a:hover {
+    color: rgb(235, 178, 23);
+}
+
+/* ---------------------Formulario Tickets-------------------------------- */
+.formulario-tickets{
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.total-pagar{
+    background-color: #b6d1dd !important;
+}
+
+.container-btn-tickets{
+    align-items: center !important;
+}
+
+.btn-ticket{
+    width: 48.3%;
+    border: none !important;
+    background-color: #64a324 !important;
+}
+
+/* -------------------------------------------------------- */
+@media (max-width:992px) {
+    .container1 .texto {
+        width: 100%;
+        margin-bottom: 20vh;
+        text-align: center;
+    }
+
+
+    .container1 .botones {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .parte5 .formulario {
+        width: 65vw;
+    }
+}
+
+
+@media(max-width:768px) {
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 img {
+        width: 1000vh;
+    }
+
+    .container2 .texto2>* {
+        display: block;
+        text-align: center !important;
+    }
+
+    .texto2 .boton {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .parte5 .formulario .first-last-name {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    .parte5 .formulario .first-last-name .input-name {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .parte5 .formulario {
+        width: 80vw;
+    }
+
+    
+
+    .parte6 .container-footer {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .parte6 .container-footer a {
+        padding: 0.5rem 0;
+        width: 100%;
+        text-align: center;
+    }
+
+
+}
+
+@media(max-width:576px) {
+    .container1 .botones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
