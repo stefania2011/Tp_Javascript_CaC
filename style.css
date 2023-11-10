@@ -455,3 +455,9 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width:766px){
+    .formulario-tickets{
+        width: 90%;
+    }
+}
